@@ -1,0 +1,12 @@
+{
+    "registerUserList": [
+        {
+            "fname": "som",
+            "lname": "gupta",
+            "email": "abc@gmail.com",
+            "password": "1234",
+            "dob": "2022-04-02",
+            "role_user": true
+        }
+    ]
+}

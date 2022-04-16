@@ -1,0 +1,32 @@
+<div>
+    <h3 class="header">Register</h3>
+        <form [formGroup]="RegisterForm" (ngSubmit)="register()">
+            <div>
+                <div class="input-form">
+                    <label for="fname">First Name</label>
+                    <input class="form-control" formControlName="fname" required type="text">
+                </div>
+                <div class="input-form">
+                    <label for="lname">Last Name</label>
+                    <input  class="form-control" formControlName="lname" required type="text">
+                </div>
+                <div class="input-form">
+                    <label for="email">Email</label>
+                    <input  class="form-control" formControlName="email" required type="text">
+                </div>
+                <div class="input-form">
+                    <label for="password">Password</label>
+                    <input class="form-control" formControlName="password" type="password">
+                </div>
+                <div class="input-form">
+                    <label for="dob">DOB</label>
+                    <input class="form-control" formControlName="dob" required type="date">
+                </div>
+                <div class="button">
+                    <button [disabled]="!RegisterForm.valid" class="but btn btn-primary" type="submit">Register</button>
+                <span><a routerLink="/">Login Here</a></span>
+                </div>
+                
+            </div>
+        </form>
+</div>

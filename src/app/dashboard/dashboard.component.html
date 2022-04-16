@@ -1,0 +1,12 @@
+<h3>All User Details</h3>
+<h2>
+    User List
+</h2>
+<button type="button" (click)="logout()">logout</button>
+<ul *ngFor="let item of user">
+    <li>{{item.fname}}</li>
+    <li>{{item.lname}}</li>
+    <li>{{item.email}}</li>
+    <li>{{item.role_user}}</li>
+    <li>{{item.dob}}</li>
+</ul>

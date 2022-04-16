@@ -1,0 +1,22 @@
+{
+  "registerUserList": [
+    {
+      "fname": "asf",
+      "lname": "sdfs",
+      "email": "abc@gmail.com",
+      "password": "123456",
+      "dob": "2022-04-08",
+      "role_user": true,
+      "id": 2
+    },
+    {
+      "fname": "asfnlk",
+      "lname": "lkwnglkn",
+      "email": "lkndlkfn",
+      "password": "23434",
+      "dob": "2022-04-24",
+      "role_user": true,
+      "id": 3
+    }
+  ]
+}
